@@ -1,0 +1,16 @@
+--============GET============--
+oc get is
+oc get bc
+oc get dc
+oc get rc
+oc get projects
+oc get pods
+oc get services
+oc get routes
+oc get users
+oc get groups
+--============T============--
+oc new-project <name_project>
+oc new-app <name_app>
+oc expose service <name_service>
+oc login -u <user_name> -p <password_name> <api>
