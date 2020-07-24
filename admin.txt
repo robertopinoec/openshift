@@ -1,3 +1,9 @@
+podman images
+podman ps
+podman ps -a
+podman rm <name_container>
+podman rmi <name_images>
+podman run --name <name_container> -itd -p <port>:<port> <name_images>
 --============GET============--
 oc get is
 oc get bc
