@@ -1,3 +1,5 @@
+oc new-app https://github.com/RedHatWorkshops/time --context-dir=rhel
+--=============================================
 podman images
 podman ps
 podman ps -a
